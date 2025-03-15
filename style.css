@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* font family */
+    --font-family: "Poppins", serif;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--font-family);
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    font-family: var(--font-family);
+}
+
+header nav {
+    height: 5vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+header nav .secondarynav {
+    height: 50%;
+    width: 100%;
+    background-color: #EAD398;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+header nav .secondarynav P {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header nav .secondarynav button {
+    width: 108.73px;
+    height: 28.4px;
+    font-size: 12px;
+    padding: 7px 5px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+header .wrapper {
+    background: url(./images/carone.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+}
+
+header .wrapper .primarynav {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header .wrapper .primarynav .logo {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .wrapper .primarynav .logo img {
+    width: 50%;
+    height: 100%;
+    
+}
+
+header .wrapper .primarynav .options {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header .wrapper .primarynav .options ul {
+    display: flex;
+    gap: 20px;
+}
+
+header .wrapper .primarynav .options ul li {
+    list-style: none;
+}
+
+header .wrapper .primarynav .options ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+header .wrapper .primarynav .icons {
+    width: 20%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    /* size: 30px; */
+}
+
+header .wrapper .banner {
+    /* width: 60%; */
+    height: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+header .wrapper .banner .model_3 {
+    text-align: center;
+}
+
+header .wrapper .banner .model_3 h1 {
+    font-size: 72px;
+}
+
+header .wrapper .banner .model_3 a {
+    color: white;
+    font-size: 24px;
+}
+
+header .wrapper .banner .button {
+    display: flex;
+    gap: 15px;
+
+}
+
+header .wrapper .banner .button .buttonone button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #3e6ae1;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+header .wrapper .banner .button .buttontwo button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: black;
+}
+
+/* sectionone start */
+#model_y {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(./images/cartwo.jpeg);
+    background-size: cover;
+}
+
+#model_y .content {
+    text-align: center;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#model_y .content h1 {
+    font-size: 72px;
+    color: white;
+
+}
+
+#model_y .content a {
+    color: white;
+    font-size: 24px;
+}
+
+#model_y .parent {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#model_y .button {
+    display: flex;
+    gap: 15px;
+
+}
+
+#model_y .button .buttonone button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #3e6ae1;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#model_y .button .buttontwo button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* sectionone end*/
+
+/* sectiontwo start*/
+/* sectiontwo end*/
+/* sectionthree start*/
+#new_model_y {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(185, 158, 149);
+    align-items: center;
+    background: url(./images/carthree.jpeg);
+    background-size: cover;
+}
+
+#new_model_y .content {
+    text-align: center;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#new_model_y .content h1 {
+    font-size: 72px;
+    color: white;
+
+}
+
+#new_model_y .content a {
+    color: white;
+    font-size: 24px;
+}
+
+#new_model_y .parent {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#new_model_y .withtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+#new_model_y .withtext .icons {
+    display: flex;
+    gap: 5px;
+}
+
+#new_model_y .button {
+    display: flex;
+    gap: 15px;
+}
+
+#new_model_y .button .button-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #111111;
+    color: #a2a3a5;
+    padding: 4px 0px;
+    width: 264px;
+    height: 42.4px;
+    transition-duration: 0.7s;
+}
+
+#new_model_y .button .button-holder:hover{
+    background-color: whitesmoke;
+}
+
+#new_model_y .button .button-holder:nth-child(2):hover{
+    border-top: 2px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+
+#new_model_y .button .button-holder a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a2a3a5;
+    cursor: pointer;   
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700; 
+    transition-duration: 0.7s;
+}
+
+#new_model_y .button .button-holder:nth-child(2){
+    border-top: 2px solid #a2a3a5;
+}
+
+
+/* sectionthree end*/
+/* sectionfour start*/
+#model_x {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(./images/carfour.jpeg);
+    background-size: cover;
+}
+
+#model_x .content {
+    text-align: center;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#model_x .content h1 {
+    font-size: 72px;
+    color: white;
+
+}
+
+#model_x .content p {
+    color: white;
+    font-size: 24px;
+}
+
+#model_x .parent {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#model_x .button {
+    display: flex;
+    gap: 15px;
+
+}
+
+#model_x .button .buttonone button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #3e6ae1;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#model_x .button .buttontwo button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* sectionfour end*/
+/* sectionfive start */
+#model_s {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(185, 158, 149);
+    background: url(./images/carfive.jpeg);
+    background-size: cover;
+    align-items: center;
+}
+
+#model_s .content {
+    text-align: center;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#model_s .content h1 {
+    font-size: 72px;
+    color: white;
+
+}
+
+#model_s .content p {
+    color: white;
+    font-size: 24px;
+}
+
+#model_s .parent {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#model_s .button {
+    display: flex;
+    gap: 15px;
+
+}
+
+#model_s .button .buttonone button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #3e6ae1;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#model_s .button .buttontwo button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* sectionfive end */
+/* sectionsix start */
+#solar_panels {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(185, 158, 149);
+    align-items: center;
+    background: url(./images/carsix.jpeg);
+    background-size: cover;
+}
+
+#solar_panels .content {
+    text-align: center;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#solar_panels .content h1 {
+    font-size: 72px;
+    color: white;
+
+}
+
+#solar_panels .content a {
+    color: white;
+    font-size: 24px;
+}
+
+#solar_panels .parent {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#solar_panels .button {
+    display: flex;
+    gap: 15px;
+
+}
+
+#solar_panels .button .buttonone button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #3e6ae1;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#solar_panels .button .buttontwo button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* sectionsix end */
+/* sectionseven start */
+#solar_roof {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(./images/carseven.jpeg);
+    background-size: cover;
+}
+
+#solar_roof .content {
+    text-align: center;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#solar_roof .content h1 {
+    font-size: 72px;
+    color: white;
+
+}
+
+#solar_roof .content p {
+    color: white;
+    font-size: 24px;
+}
+
+#solar_roof .parent {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#solar_roof .button {
+    display: flex;
+    gap: 15px;
+
+}
+
+#solar_roof .button .buttonone button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #3e6ae1;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#solar_roof .button .buttontwo button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* sectionseven end */
+/* sectioneight start */
+#power_wall {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(185, 158, 149);
+    align-items: center;
+    background: url(./images/careight.jpeg);
+    background-size: cover;
+}
+
+#power_wall .content {
+    text-align: center;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#power_wall .content h1 {
+    font-size: 72px;
+    color: white;
+
+}
+
+#power_wall .parent {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#power_wall .button {
+    display: flex;
+    gap: 15px;
+
+}
+
+#power_wall .button .buttonone button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #3e6ae1;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#power_wall .button .buttontwo button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* sectioneight end */
+/* sectionnine start */
+#accessories {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(185, 158, 149);
+    align-items: center;
+    background: url(./images/carnine.jpeg);
+    background-size: cover;
+}
+
+#accessories .content {
+    text-align: center;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#accessories .content h1 {
+    font-size: 72px;
+    color: white;
+
+}
+
+#accessories .parent {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#accessories .button {
+    display: flex;
+    gap: 15px;
+
+}
+
+#accessories .button .buttonone button {
+    width: 252px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: #3e6ae1;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* sectionnine end */
+/* videosection start */
+#videosection{
+    width: 100%;
+    height: 120vh;
+    color: white;
+    /* background-color: #EAD398; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+}
+#videosection .video{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    
+}
+
+#videosection a button{
+    width: 204px;
+    height: 40px;
+    color: #393c41;
+    background-color: #f4f4f4;
+    padding: 4px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* videosection end  */
+/* footer start */
+footer{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 14px;
+}
+footer a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #393c41;
+    font-weight: 600;
+
+}
+/* footer end */
